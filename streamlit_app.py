@@ -2,11 +2,12 @@ import streamlit as st
 from openai import OpenAI
 
 # Show title and description.
+st.set_page_config(page_icon="🧑‍🍳", layout="wide")
 st.title("🧑‍🍳💬 AlergenoCero")
 st.write(
     "¡Hola! Soy AlergenoCero 👨‍🍳. Estoy aquí para ayudarte a adaptar y crear recetas que sean saludables y adecuadas para tus necesidades alimenticias, "
-    "ya sea que tengas alergias, intolerancias o simplemente preferencias alimentarias como ser vegetariano, vegano o sin gluten."
-    " Puedo personalizar recetas para evitar ciertos alérgenos, mantener el sabor y la textura originales, "
+    "ya sea que tengas alergias, intolerancias o simplemente preferencias alimentarias como ser vegetariano o vegano."
+    "Puedo personalizar recetas para mantener tus preferencias, sabor y la textura originales "
     "y proporcionarte cantidades detalladas e instrucciones claras. Además, te ofrezco alternativas para ingredientes problemáticos y consejos sobre seguridad alimentaria. "
     "¡Cuéntame tu nombre y tus necesidades alimenticias para comenzar! 😊"
 )
