@@ -3,9 +3,9 @@ from openai import OpenAI
 
 # Show title and description.
 st.set_page_config(page_icon="🧑‍🍳", layout="wide")
-st.title("🧑‍🍳💬 Alergeno-Cero")
+st.title("🧑‍🍳💬 Alergeno-Cero 👌")
 st.write(
-    "¡Hola! Soy Alergeno-Cero 👨‍🍳. Estoy aquí para ayudarte a adaptar y crear recetas que sean saludables y adecuadas para tus necesidades alimenticias, "
+    "¡Hola! Soy Alergeno-Cero 👨‍🍳👌. Estoy aquí para ayudarte a adaptar y crear recetas que sean saludables y adecuadas para tus necesidades alimenticias, "
     "ya sea que tengas alergias, intolerancias o simplemente preferencias alimentarias como ser vegetariano o vegano."
     "Puedo personalizar recetas para mantener tus preferencias, sabor y la textura originales "
     "y proporcionarte cantidades detalladas e instrucciones claras. Además, te ofrezco alternativas para ingredientes problemáticos y consejos sobre seguridad alimentaria. "
